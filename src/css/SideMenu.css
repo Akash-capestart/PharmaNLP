@@ -1,0 +1,16 @@
+/***** Accordian *****/
+
+.rounded-indicator{
+    width: 10px;
+    height: 10px;
+    display: inline-flex;
+    border-radius: 50%;
+}
+.accordian-height-animation{
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+}
+.smooth-height-animation{
+    transition: height 0.4s ease;
+    overflow-y: auto;
+}

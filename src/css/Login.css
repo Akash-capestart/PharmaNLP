@@ -1,0 +1,52 @@
+/**** login css *****/
+
+.login-box{
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #EEEEEE;
+}
+.login-input{
+    padding:10px 5px;
+    outline: none;
+    border-radius: 5px;
+}
+.login-field-box{
+    padding: 40px;
+}
+.ai-image-border-radius{
+    border-radius: 10px 0px 0px 10px;        
+}
+.login-pnlp-logo{
+    width: 50px;
+    border-radius: 10px;
+}
+.login-pharma-logo-box{
+    top: 0;  
+    z-index: 2;  
+}
+.login-left-content-position{
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+    transform: translate(-50%,-50%);
+}
+.overlay-before::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    height: 100%;    
+    border-radius: 10px 0px 0px 10px;
+}
+
+/***** logout css *****/
+
+.logout-box{
+    top: 30px; 
+    right: 0px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #646464;
+    background-color: #FFFFFF;
+    z-index: 2;
+    animation: inAnimation 200ms ease-in;
+}

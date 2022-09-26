@@ -1,0 +1,113 @@
+/***** advance search css *****/
+
+.advanced-search-input-field{
+    padding: 5px 30px 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;    
+}
+.advance-search-box{
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px #646464;
+}
+.advance-search-container{
+    overflow-y: scroll;
+}
+
+/***** filtering css *****/
+
+.border-right-green{
+    border-right: 1px solid #2BB24C;
+}
+.filtering-content-box{
+    overflow-y: scroll;
+    max-height: 200px;
+}
+.filtering-input{
+    padding: 5px 10px;
+    background-color: #F8F8F8;
+    border-radius: 5px;
+    border: solid 1px #EEEEEE;
+    height: 30px;
+    margin:10px 0px;
+}
+.filter-content-box-margin{    
+    margin-bottom: 15px;
+    height: 250px;
+    overflow-y: scroll;
+}
+.filtering-content:hover{
+    background-color: #D5EAC8;
+    border-radius: 5px;        
+}
+.selected-filtering-content{
+    background-color: #D5EAC8;
+    border-radius: 5px;        
+}
+
+/***** meta data selector css *****/
+
+.meta-data-selector{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    border-radius: 5px;
+    border: solid 1px #E5E5E5;
+}
+.meta-data-selector li:nth-child(1){
+    padding: 5px 10px;
+    border-radius: 5px 0px 0px 5px;
+    color: #2BB24C;
+}
+.meta-data-selector li:nth-child(2){
+    padding: 5px 10px;
+    border-radius: 0px 5px 5px 0px;
+    color: #2BB24C;
+}
+.meta-data-selector .active{
+    background-color: #2BB24C;
+    border-radius: 5px!important;
+    color: #FFFFFF!important;
+}
+
+/***** article view css *****/
+
+.article-count-displayer-height{
+    height: 128px;
+}
+.article-content-view{
+    line-height: 20px;
+}
+.adverse-article-status{
+    padding:5px;
+    border-radius: 20px;
+    background-color:#D5EAC8
+}
+.article-content-box{
+    padding:0px 50px;
+    overflow: hidden;
+}
+.article-active{
+    background-color: #D5EAC8;
+    border-radius: 5px 5px 0px 0px;
+}
+.article-view-head-height{
+    height: 40px;
+}
+
+/***** meta data css *****/
+
+.meta-data-options-box{
+    list-style-type: none;
+}
+.meta-data-options-box li{
+    color: #7D7D7D;
+    border-radius: 3px 3px 0px 0px;
+}
+.meta-data-options-box .active{
+    color: #2BB24C;
+}
+.meta-data-fields{
+    padding: 10px 5px;
+    border-radius: 5px;
+}

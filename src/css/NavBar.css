@@ -1,0 +1,87 @@
+/***** navbar css *****/
+
+.nav-box{
+    display: flex;
+}
+.nav-box-height{
+    height: 50px;
+}
+.nav-box p{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+} 
+.nav-box .active{
+    background-color: #EEEEEE;
+    color: #2BB24C;
+}
+.font-resizer-box{
+    border: solid 1px #EEEEEE;
+    border-radius: 3px;
+}
+.font-resizer-box span{
+    padding: 2px 3px;
+}
+.icon-std{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.btn-img-std{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.slider { 
+    position: absolute; 
+    top: 30px;  
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #646464;
+    background-color: #FFFFFF;
+    z-index: 2;
+    animation: inAnimation 200ms ease-in;
+}
+.slider input[type="range"] {
+    width: 200px;
+    height: 2px;
+    border: none;
+    outline: none;
+}
+
+/***** input *****/
+
+.search-field{
+    padding: 12px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+.search-box{
+    margin: 15px 0px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #b3b3b3;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #b3b3b3;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #b3b3b3;
+  }
+
+/***** nav save search content *****/
+
+.nav-save-search-content{
+    padding:5px 0px;
+    transition: color 0.2s;
+}
+.nav-save-search-content:hover{
+    color: #2BB24C;
+    transition: color 0.2s;
+}
